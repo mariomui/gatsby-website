@@ -13,7 +13,7 @@ Deployment:
       * this one uses a github script to accomplish the same task but it does not seem to create a public folder when used.
     "deploy:gh-noprefix": "gatsby build && gh-pages -d public -b master"
       * this one requires the gatsby config to removed the prefixed ```pathPrefix: "/gatsby-website"```
-      * This one does not work either
+      * This one does not work either, overwites your master!
 
     ## Surge --works pretty well.
     * na-west1.surge.sh on my namechap domain, @ [host] and www[host] (CNAME)
@@ -21,3 +21,7 @@ Deployment:
     * surge public/
     * enter in your custom domain
       * Or use the command to default it to a CNAME file. 
+
+![demo page](/demo/demopage.png)
+
+Live Version at www.mariomui.me
