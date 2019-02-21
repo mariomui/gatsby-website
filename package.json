@@ -12,9 +12,21 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.3.1",
+    "bootswatch": "^4.3.1",
     "gatsby": "^2.1.5",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sass": "^2.0.10",
+    "node-sass": "^4.11.0",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-helmet": "^5.2.0",
+    "react-helmet-async": "^0.2.0"
   },
   "repository": {
     "type": "git",
