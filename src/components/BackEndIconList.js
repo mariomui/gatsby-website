@@ -1,20 +1,20 @@
 import React from 'react'
 import IconListEntry from './IconListEntry'
-import backEndIconSkillsCss from '../styles/back-end-icon-skills.module.css'
-const frontEndIconSkills = require('../assets/resume').backEndSkills
+import backEndIconSkillsCss from '../styles/icon-skills.module.css'
+const backEndIconSkills = require('../assets/resume').backEndSkills
 
-const FrontEndIconList = () => {
+const BackEndIconList = () => {
 
   return (
     <div className={backEndIconSkillsCss.row}>
       {
-        frontEndIconSkills.map(icon => {
+        backEndIconSkills.map(iconSkill => {
           return (
-            <IconListEntry icon={icon} />
+            <IconListEntry iconSkill={iconSkill} />
           )
         })
       }
     </div>
   )
 }
-export default FrontEndIconList
+export default BackEndIconList
