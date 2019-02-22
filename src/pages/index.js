@@ -21,6 +21,7 @@ class App extends React.Component {
     return new Promise((resolve, reject) => {
       let flag = document.querySelectorAll('link#hey')[0] || false
       resolve(!!flag);
+
     })
   }
 
@@ -32,6 +33,10 @@ class App extends React.Component {
           loading: result
         })
       })
+      .catch(err => {
+        console.log(err);
+      })
+
   }
 
   render() {

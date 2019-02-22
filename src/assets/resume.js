@@ -1,6 +1,6 @@
 module.exports = {
   frontEndSkills: [
-    'fas.coffee', 'fab.react', 'fab.js', 'fizz.bootstrap', 'fab.sass', 'fab.font-awesome', 'fab.markdown', 'fizz.html5'
+    'fab.react', 'fab.js', 'fizz.bootstrap', 'fab.sass', 'fab.font-awesome', 'fab.markdown', 'fizz.html5'
   ],
   backEndSkills: [
     'fab.node', 'fas.database.mysql', 'fizz.cassandra', 'fizz.mysql', 'fizz.postgres', 'fizz.script.bash'
