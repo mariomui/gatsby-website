@@ -1,6 +1,6 @@
 import React from 'react'
 import IconListEntry from './IconListEntry'
-import deployIconSkillsCss from '../styles/deploy-icon-skills.module.css'
+import deployIconSkillsCss from '../styles/icon-skills.module.css'
 const deployIconSkills = require('../assets/resume').deploySkills
 
 const DeployIconList = () => {
@@ -8,9 +8,9 @@ const DeployIconList = () => {
   return (
     <div className={deployIconSkillsCss.row}>
       {
-        deployIconSkills.map(icon => {
+        deployIconSkills.map(iconSkill => {
           return (
-            <IconListEntry icon={icon} />
+            <IconListEntry iconSkill={iconSkill} />
           )
         })
       }
