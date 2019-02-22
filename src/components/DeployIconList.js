@@ -8,9 +8,9 @@ const DeployIconList = () => {
   return (
     <div className={deployIconSkillsCss.row}>
       {
-        deployIconSkills.map(iconSkill => {
+        deployIconSkills.map((iconSkill, key) => {
           return (
-            <IconListEntry iconSkill={iconSkill} />
+            < IconListEntry key={key} iconSkill={iconSkill} />
           )
         })
       }
