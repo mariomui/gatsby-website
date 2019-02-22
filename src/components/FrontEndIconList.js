@@ -8,9 +8,9 @@ const FrontEndIconList = () => {
   return (
     <div className={frontEndIconSkillsCss.row}>
       {
-        frontEndIconSkills.map(iconSkill => {
+        frontEndIconSkills.map((iconSkill, key) => {
           return (
-            < IconListEntry iconSkill={iconSkill} />
+            < IconListEntry key={key} iconSkill={iconSkill} />
           )
         })
       }
