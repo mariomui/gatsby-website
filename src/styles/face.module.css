@@ -9,8 +9,7 @@
 .image-container {
   clip-path: circle(50% at 50% 50%);
   width: 133px;
-  height: 133px;
+  height: 100px;
   text-align: center;
   position: relative;
- 
 }
