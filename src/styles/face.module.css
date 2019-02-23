@@ -1,0 +1,16 @@
+.face {
+  background-image: url('https://bit.ly/2ShRMCt');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20em;
+  height: 10em;
+}
+
+.image-container {
+  clip-path: circle(50% at 50% 50%);
+  width: 133px;
+  height: 133px;
+  text-align: center;
+  position: relative;
+ 
+}

@@ -1,7 +1,12 @@
 import React from 'react'
 import Home from '../components/Home'
 import Layout from '../components/Layout'
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from "@fortawesome/free-brands-svg-icons"
 
+library.add(fab, fas);
 class App extends React.Component {
   constructor(props) {
     super(props)

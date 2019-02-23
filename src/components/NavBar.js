@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby'
+import Face from '../components/Face'
+
 const nameCss = {
   color: 'white'
 };
@@ -13,6 +15,9 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div id="navbarColor01">
         <ul style={noLineCss} className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <Face />
+          </li>
           <li className="nav-item active">
             <Link style={noLineCss} to="/" >
               <div style={nameCss} className="nav-link">
