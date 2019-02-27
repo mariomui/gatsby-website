@@ -10,7 +10,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy:surge": "gatsby build && surge public/",
+    "deploy:test": "gatsby build --prefix-paths && gh-pages -d public",
     "deploy:gh": "npm run build && node ./scripts/deploy-gh.js",
     "deploy:gh-noprefix": "gatsby build && gh-pages -d public -b master"
   },
