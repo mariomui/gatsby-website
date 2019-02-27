@@ -1,18 +1,23 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import Helm from '../components/Helm'
-import { HelmetProvider } from 'react-helmet-async';
+// import { HelmetProvider } from 'react-helmet-async';
+import Footer from './Footer'
 
+// <HelmetProvider>
 const Layout = ({ children }) => {
   return (
-    <HelmetProvider>
+    <div>
 
       <Helm />
       <NavBar />
-      {children}
 
-    </HelmetProvider>
+      {children}
+      <Footer />
+    </div>
+
   )
 }
+// /* </HelmetProvider> */
 
 export default Layout

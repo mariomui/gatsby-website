@@ -11,8 +11,11 @@ export default () => {
       <p className="lead">
         <a className="btn btn-primary btn-lg" href="#d" role="button">Learn more</a>
       </p>
-      <iframe title="hey" src="https://resume.creddle.io/embed/9jzfwxwlfph"
-        width="900px" height="900px" seamless></iframe>
+      <div>
+
+        <iframe title="hey" src="https://resume.creddle.io/embed/9jzfwxwlfph"
+          width="900px" height="900px" seamless></iframe>
+      </div>
     </div>
 
   )
