@@ -10,7 +10,7 @@ export default () => {
       <hr className="my-4" />
       <HomeContent />
       <p className="lead">
-        <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <a className="btn btn-primary btn-lg" href="#d" role="button">Learn more</a>
       </p>
     </div>
 

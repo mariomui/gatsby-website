@@ -1,26 +1,28 @@
 import React from 'react';
 import { Link } from 'gatsby'
 import Face from '../components/Face'
+import navbarCss from '../styles/navbar.module.css'
 
 const nameCss = {
   color: 'white'
 };
 const noLineCss = {
   textDecoration: 'none',
-  listStyle: 'none'
+  listStyle: 'none',
 }
+
 const NavBar = () => {
   return (
 
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div id="navbarColor01">
-        <ul style={noLineCss} className="navbar-nav mr-auto">
+        <ul className={`${navbarCss.list} navbar-nav mr-auto`}>
           <li className="nav-item active">
             <Face />
           </li>
           <li className="nav-item active">
             <Link style={noLineCss} to="/" >
-              <div style={nameCss} className="nav-link">
+              <div className={`${navbarCss.nameCss} nav-link`}>
                 HOME
               </div>
             </Link>
@@ -40,7 +42,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link style={noLineCss} to="/Contacts/" >
+            <Link style={noLineCss} to="/ContactPage/" >
               <div style={nameCss} className="nav-link">
                 Contacts
               </div>

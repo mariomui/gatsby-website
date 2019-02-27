@@ -6,10 +6,12 @@ import { HelmetProvider } from 'react-helmet-async';
 const Layout = ({ children }) => {
   return (
     <HelmetProvider>
+      <div>
 
-      <Helm />
-      <NavBar />
-      {children}
+        <Helm />
+        <NavBar />
+        {children}
+      </div>
 
     </HelmetProvider>
   )

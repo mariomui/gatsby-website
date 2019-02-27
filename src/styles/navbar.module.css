@@ -1,3 +1,15 @@
-.navbar {
-  background-color: green
+
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.nameCss {
+  color: white;
+};
+
+@media only screen and (max-width: 600px) {
+  .nameCss {
+    color: blue !important;
+  }
 }
