@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeContent from './HomeContent'
+import homeCss from '../styles/home.module.css'
 export default () => {
   return (
     <div className="jumbotron">
@@ -11,8 +12,11 @@ export default () => {
       <p className="lead">
         <a className="btn btn-primary btn-lg" href="#d" role="button">Learn more</a>
       </p>
-      <iframe title="hey" src="https://resume.creddle.io/embed/9jzfwxwlfph"
-        width="900px" height="900px" seamless></iframe>
+      <div className={homeCss.resume}>
+
+        <iframe title="hey" src="https://resume.creddle.io/embed/9jzfwxwlfph"
+          width="900px" height="900px" seamless></iframe>
+      </div>
     </div>
 
   )
