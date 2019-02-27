@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from "@fortawesome/free-brands-svg-icons"
-
+// const iframe = require('iframe');
 library.add(fab, fas);
 class App extends React.Component {
   constructor(props) {
@@ -18,6 +18,8 @@ class App extends React.Component {
     return (
       <Layout>
         <Home />
+
+
       </Layout >
     );
   }
@@ -28,6 +30,9 @@ class App extends React.Component {
     return (
       <div>
         {this.renderLater()}
+
+
+
       </div>
     )
   }
