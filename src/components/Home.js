@@ -16,7 +16,11 @@ export default () => {
 
         <iframe title="hey" src="https://resume.creddle.io/embed/9jzfwxwlfph"
           width="900px" height="900px" seamless></iframe>
+
       </div>
+      <div className={homeCss.download_resume}>
+        download me.
+        </div>
     </div>
 
   )

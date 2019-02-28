@@ -33,14 +33,14 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link style={noLineCss} to="/Projects/" >
+            <Link style={noLineCss} to="/ProjectsPage/"  >
               <div style={nameCss} className="nav-link">
                 Projects
               </div>
             </Link>
           </li>
           <li className="nav-item">
-            <Link style={noLineCss} to="/Contacts/" >
+            <Link style={noLineCss} to="/ContactsPage/" >
               <div style={nameCss} className="nav-link">
                 Contacts
               </div>

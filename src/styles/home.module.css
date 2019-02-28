@@ -1,4 +1,19 @@
 
-.resume {
+  .download_resume {
+    display: none;
+  }
+
+  @media (max-width: 895px) {
+    .resume {
+      display: none;
+    }
+  }
+
+  @media (max-width: 895px) {
+    .download_resume {
+      display: block;
+    }
+  }
+
   
-}
+
